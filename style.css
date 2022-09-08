@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tittle {
+    color: brown;
+    border: 1px solid grey;
+}
+
+.main {
+    text-align: center;
+}
+
+.main h1 {
+    margin-bottom: 15px;
+}
+
+body {
+    background: linear-gradient(to right, rgba(91, 253, 100,0.5), rgba(91, 225, 243,0.5));
+}
+
+table {
+    width: 100%;
+    margin-bottom: .5em;
+    table-layout: fixed;
+    text-align: center;
+    background-color: rgb(203, 203, 203);
+}
+
+input {
+    width: 500px;
+    background: linear-gradient(to right, rgba(230, 86, 86, 0.5), rgba(42, 179, 8, 0.4));
+}
+
+input::placeholder {
+    color: black;
+}
+
+.place-table {
+    text-align: center;
+}
+
+button {
+    border: 2px solid rgb(0, 46, 0);
+    background-color: rgba(118, 228, 90, 0.7);
+}
